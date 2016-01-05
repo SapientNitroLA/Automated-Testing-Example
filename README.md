@@ -14,7 +14,7 @@ A basic carousel component was used as the test subject. Applying testing to a p
 
 ## Usage ##
 
-The following commands initiate their respective test framework and are defined in the [`scripts` member of the package.json](package.json#L5):
+The following commands initiate their respective test framework and are defined in the [`scripts` member of the package.json](package.json#L5-L8):
 
 **Intern**
 
