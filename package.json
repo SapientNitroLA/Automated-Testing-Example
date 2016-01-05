@@ -1,12 +1,22 @@
 {
-    "name": "benchtestingproject",
+    "name": "Automated-Testing-Example",
     "version": "0.0.1",
-    "description": "Bench project to establish default testing infrastructure",
+    "description": "An entry point into understanding automated testing.",
     "scripts": {
         "intern": "bash tests/support/intern-selenium.sh",
         "nightwatch": "./node_modules/.bin/nightwatch -c ./tests/nightwatch.json"
     },
     "author": "SapientNitroLA",
+    "contributors": [
+      {
+        "name": "J Hausmann",
+        "url": "https://github.com/j735"
+      },
+      {
+        "name": "Ryan Fitzer",
+        "url": "https://github.com/ryanfitzer"
+      }
+    ],
     "devDependencies": {
         "intern": "^3.0.6",
         "lodash": "^3.10.1",
