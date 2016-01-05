@@ -2,7 +2,7 @@
 
 This repo is the result of an internal work project to come up up with a generic testing structure for use across client projects. A basic carousel component was used as the test subject.
 
-Applying testing to a pre-existing project enables focus to be placed solely on functional testing (as a proper unit testing implementation demands a TDD/BDD approach). As such, this example focusing on [Intern][intern] and [Nightwatch][nightwatch] since they are the most developed functional testing frameworks currently available.
+Applying testing to a pre-existing project enables focus to be placed solely on functional testing (as a proper unit testing implementation demands a TDD/BDD approach). As such, this example focusing on [Intern][intern] and [Nightwatch][nightwatch] since they are the most developed functional testing frameworks currently available. Also, using a "[Page Object][page-object]" pattern for both sets of tests enabled abstracting away the DOM tree structure from the tests themselves.
 
 
 
@@ -14,7 +14,7 @@ Applying testing to a pre-existing project enables focus to be placed solely on 
 
 ## Usage ##
 
-The following commands initiate their respective test framework and are defined in the [`scripts` member of the package.json](blob/master/package.json#L5):
+The following commands initiate their respective test framework and are defined in the [`scripts` member of the package.json](package.json#L5):
 
 **Intern**
 
@@ -118,3 +118,4 @@ Testing Framework → │                 ↓                  │
 [intern]: http://theintern.github.io/intern/
 [nightwatch]: http://nightwatchjs.org/
 [webdriver]: http://www.w3.org/TR/webdriver/
+[page-object]: https://theintern.github.io/intern/#page-objects
