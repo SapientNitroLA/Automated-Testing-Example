@@ -1,8 +1,8 @@
 # Overview #
 
-This repo is the result of an internal work project to come up up with a generic testing structure for use across client projects. A basic carousel component was used as the test subject.
+This repo is the result of an internal project to come up up with a generic testing structure for use across client projects. It is a work-in-progress.
 
-Applying testing to a pre-existing project enables focus to be placed solely on functional testing (as a proper unit testing implementation demands a TDD/BDD approach). As such, this example focusing on [Intern][intern] and [Nightwatch][nightwatch] since they are the most developed functional testing frameworks currently available. Also, using a "[Page Object][page-object]" pattern for both sets of tests enabled abstracting away the DOM tree structure from the tests themselves.
+A basic carousel component was used as the test subject. Applying testing to a pre-existing project enables focus to be placed solely on functional testing (as a proper unit testing implementation demands a TDD/BDD approach). As such, this example focusing on [Intern][intern] and [Nightwatch][nightwatch] since they are the most developed functional testing frameworks currently available. Also, using a "[Page Object][page-object]" pattern for both sets of tests enabled abstracting away the DOM tree structure from the tests themselves.
 
 
 
